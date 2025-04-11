@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'VT323', monospace; /* Aplica la fuente VT323 */
+    font-size: 20px; /* Tamaño base más grande */
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+                url('/img/fondo.png') no-repeat center center fixed; /* Imagen de fondo con transparencia */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+}
+
+h1 {
+    font-size: 48px; /* Tamaño grande para el título */
+}
+
+p, a {
+    font-size: 24px; /* Tamaño más grande para párrafos y enlaces */
+}
+
+h1, p, a {
+    font-family: 'VT323', monospace; /* Aplica la fuente a títulos, párrafos y enlaces */
+}
+
+.container {
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+.nav-list li a {
+    display: inline-block;
+    width: 500px; /* Igual al ancho de la imagen */
+    text-align: center; /* Centra el texto dentro del botón */
+    padding: 10px 0; /* Ajusta el relleno vertical */
+    background-color: #007BFF; /* Color azul llamativo */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-list li a:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+    transform: scale(1.1); /* Efecto de agrandamiento */
+}
+
+.logo {
+    border-radius: 10px; /* Redondea las esquinas de la imagen */
+}
